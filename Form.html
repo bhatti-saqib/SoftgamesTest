@@ -1,0 +1,32 @@
+<html>
+<style type='text/css'>
+h5 {
+    margin-bottom: 0px;
+}
+
+</style>
+
+<head>
+<meta name="viewport" content="initial-scale=1.5" />
+<title> Form </title>
+<script type="text/javascript" src="Softgames.js"></script>
+</head>
+
+<body>
+<!--<form>-->
+    <h5> First name </h5>
+    <input type="text" placeholder="Enter your first name" id="firstNameInput" required />
+    <h5> Last name</h5>
+    <input type="text" placeholder="Enter your last name" id="lastNameInput" required>
+    <h5> Full name</h5>
+    <input type="text" id="fullName">
+    <h5> Date of Birth</h5>
+    <input type="text" placeholder="MM/dd/yyyy" id="DOB"/>
+    <h5> Age</h5>
+    <input type="text" id="age"/></br></br>
+
+    <button type="submit" onclick="sendFirstAndLastName();">Sync</button>
+    <button type="submit" onclick="sendDateOfBirth();">Async</button>
+<!--</form>-->
+</body>
+</html>
