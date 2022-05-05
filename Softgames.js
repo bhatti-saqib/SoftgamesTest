@@ -23,6 +23,9 @@ function updateFullName(name) {
 
 function sendDateOfBirth() {
     let dob = document.getElementById("DOB").value;
+    if(dob.value === null || typeof(dob.value) === 'undefined' || dob.value === '') {
+        return false
+    }
     
     try {
         webkit.messageHandlers.sendToiOS.postMessage(dob);
@@ -35,4 +38,14 @@ function sendDateOfBirth() {
 
 function updateAgeField(age) {
     document.getElementById("age").value = age;
+}
+
+
+function trigger() {
+    try {
+        webkit.messageHandlers.sendToiOS.postMessage(true);
+    }
+    catch(err) {
+        console.log('error');
+    }
 }
