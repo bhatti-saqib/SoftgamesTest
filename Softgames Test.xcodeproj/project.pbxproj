@@ -16,7 +16,19 @@
 		84AE627428200D0A00F8CCB4 /* Softgames.js in Resources */ = {isa = PBXBuildFile; fileRef = 84AE627328200D0A00F8CCB4 /* Softgames.js */; };
 		84AE62762820168F00F8CCB4 /* Form.html in Resources */ = {isa = PBXBuildFile; fileRef = 84AE62752820168F00F8CCB4 /* Form.html */; };
 		84AE627C2823D58700F8CCB4 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AE627B2823D58700F8CCB4 /* Helper.swift */; };
+		84AE62BC28250B4000F8CCB4 /* WebViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AE62BB28250B4000F8CCB4 /* WebViewControllerTests.swift */; };
+		84AE62BE28250E7100F8CCB4 /* Form.html in Resources */ = {isa = PBXBuildFile; fileRef = 84AE62BD28250E7100F8CCB4 /* Form.html */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84AE62B62824D15900F8CCB4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84AE624F281DA39800F8CCB4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84AE6256281DA39800F8CCB4;
+			remoteInfo = "Softgames Test";
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		84AE6257281DA39800F8CCB4 /* Softgames Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Softgames Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -30,10 +42,20 @@
 		84AE627328200D0A00F8CCB4 /* Softgames.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Softgames.js; sourceTree = SOURCE_ROOT; };
 		84AE62752820168F00F8CCB4 /* Form.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Form.html; sourceTree = SOURCE_ROOT; };
 		84AE627B2823D58700F8CCB4 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		84AE62B22824D15900F8CCB4 /* Softgames TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Softgames TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84AE62BB28250B4000F8CCB4 /* WebViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewControllerTests.swift; sourceTree = "<group>"; };
+		84AE62BD28250E7100F8CCB4 /* Form.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Form.html; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		84AE6254281DA39800F8CCB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84AE62AF2824D15900F8CCB4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -47,6 +69,7 @@
 			isa = PBXGroup;
 			children = (
 				84AE6259281DA39800F8CCB4 /* Softgames Test */,
+				84AE62B32824D15900F8CCB4 /* Softgames TestTests */,
 				84AE6258281DA39800F8CCB4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -55,6 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				84AE6257281DA39800F8CCB4 /* Softgames Test.app */,
+				84AE62B22824D15900F8CCB4 /* Softgames TestTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -92,6 +116,15 @@
 			path = Helpers;
 			sourceTree = "<group>";
 		};
+		84AE62B32824D15900F8CCB4 /* Softgames TestTests */ = {
+			isa = PBXGroup;
+			children = (
+				84AE62BD28250E7100F8CCB4 /* Form.html */,
+				84AE62BB28250B4000F8CCB4 /* WebViewControllerTests.swift */,
+			);
+			path = "Softgames TestTests";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -112,6 +145,24 @@
 			productReference = 84AE6257281DA39800F8CCB4 /* Softgames Test.app */;
 			productType = "com.apple.product-type.application";
 		};
+		84AE62B12824D15900F8CCB4 /* Softgames TestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84AE62BA2824D15900F8CCB4 /* Build configuration list for PBXNativeTarget "Softgames TestTests" */;
+			buildPhases = (
+				84AE62AE2824D15900F8CCB4 /* Sources */,
+				84AE62AF2824D15900F8CCB4 /* Frameworks */,
+				84AE62B02824D15900F8CCB4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84AE62B72824D15900F8CCB4 /* PBXTargetDependency */,
+			);
+			name = "Softgames TestTests";
+			productName = "Softgames TestTests";
+			productReference = 84AE62B22824D15900F8CCB4 /* Softgames TestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -124,6 +175,10 @@
 				TargetAttributes = {
 					84AE6256281DA39800F8CCB4 = {
 						CreatedOnToolsVersion = 13.2.1;
+					};
+					84AE62B12824D15900F8CCB4 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 84AE6256281DA39800F8CCB4;
 					};
 				};
 			};
@@ -141,6 +196,7 @@
 			projectRoot = "";
 			targets = (
 				84AE6256281DA39800F8CCB4 /* Softgames Test */,
+				84AE62B12824D15900F8CCB4 /* Softgames TestTests */,
 			);
 		};
 /* End PBXProject section */
@@ -158,6 +214,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		84AE62B02824D15900F8CCB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84AE62BE28250E7100F8CCB4 /* Form.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -172,7 +236,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		84AE62AE2824D15900F8CCB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84AE62BC28250B4000F8CCB4 /* WebViewControllerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84AE62B72824D15900F8CCB4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84AE6256281DA39800F8CCB4 /* Softgames Test */;
+			targetProxy = 84AE62B62824D15900F8CCB4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		84AE6260281DA39800F8CCB4 /* Main.storyboard */ = {
@@ -366,6 +446,42 @@
 			};
 			name = Release;
 		};
+		84AE62B82824D15900F8CCB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 48T2248AE2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lessons.saqib.Softgames-TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Softgames Test.app/Softgames Test";
+			};
+			name = Debug;
+		};
+		84AE62B92824D15900F8CCB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 48T2248AE2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lessons.saqib.Softgames-TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Softgames Test.app/Softgames Test";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -383,6 +499,15 @@
 			buildConfigurations = (
 				84AE626C281DA39B00F8CCB4 /* Debug */,
 				84AE626D281DA39B00F8CCB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84AE62BA2824D15900F8CCB4 /* Build configuration list for PBXNativeTarget "Softgames TestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84AE62B82824D15900F8CCB4 /* Debug */,
+				84AE62B92824D15900F8CCB4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
